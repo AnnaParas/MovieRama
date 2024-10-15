@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieRama</title>
+    <link rel="stylesheet" href="../src/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>MovieRama</h1>
+      <input type="text" id="search-box" placeholder="Search for movies..." />
+    </header>
+    <main>
+      <div id="banner" class="banner">In Theaters</div>
+      <div id="movie-list" class="movie-list"></div>
+      <div id="movie-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <div id="modal-details"></div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="dist/app.js"></script>
+  </body>
+</html>

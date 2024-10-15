@@ -1,0 +1,16 @@
+{
+  "name": "movie-rama",
+  "version": "1.0.0",
+  "description": "MovieRama - A movie catalog project using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "lite-server": "^2.6.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.6.3"
+  }
+}
